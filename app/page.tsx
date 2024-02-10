@@ -1,5 +1,6 @@
 import { Disclosure } from '@headlessui/react';
 import Image from 'next/image';
+import Carousel from './components/Carousel';
 
 export default function Home() {
   return (
@@ -25,6 +26,10 @@ export default function Home() {
           <button className="bg-blue-400 text-white px-5 py-3 mt-10 rounded-lg font-bold hover:bg-sapphire hover:text-white transition-all delay-75">
             Hire me
           </button>
+        </div>
+
+        <div className="title w-100 flex justify-center">
+          <Carousel />
         </div>
       </div>
     </div>
