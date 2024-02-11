@@ -28,9 +28,7 @@ export default function Home() {
           </button>
         </div>
 
-        <div className="title w-100 flex justify-center">
           <Carousel />
-        </div>
       </div>
     </div>
   );
